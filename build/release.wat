@@ -191,6 +191,7 @@
         (i32.or (i32.eq (local.get $asn) (i32.const 197854))) ;; Eisenia AB  
         (i32.or (i32.eq (local.get $asn) (i32.const 215051))) ;; Damian Chlebda
         (i32.or (i32.eq (local.get $asn) (i32.const 214828))) ;; StarLight Network, Inc.
+        (i32.or (i32.eq (local.get $asn) (i32.const 206264))) ;; Amarutu Technology Ltd.
         ;; NForce Entertainment B.V.
         (i32.or (i32.eq (local.get $asn) (i32.const 43350)))
         (i32.or (i32.eq (local.get $asn) (i32.const 64437))) 
