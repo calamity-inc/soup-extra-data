@@ -1,1 +1,2 @@
+build/** linguist-generated
 *.blume linguist-language=WebAssembly
