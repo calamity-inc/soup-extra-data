@@ -1,22 +1,15 @@
 (module
 	(func (export "is_hosting_asn") (param $asn i32) (result i32)
-		(i32.eq (local.get $asn) (i32.const 3214)) ;; xTom GmbH
-		(i32.or (i32.eq (local.get $asn) (i32.const 4785))) ;; xTom Limited
-		(i32.or (i32.eq (local.get $asn) (i32.const 6233))) ;; xTom
-		(i32.or (i32.eq (local.get $asn) (i32.const 8100))) ;; QuadraNet Enterprises LLC
+		(i32.eq (local.get $asn) (i32.const 8100)) ;; QuadraNet Enterprises LLC
 		(i32.or (i32.eq (local.get $asn) (i32.const 9304))) ;; HGC Global Communications Limited
-		(i32.or (i32.eq (local.get $asn) (i32.const 9312))) ;; xTom Hong Kong Limited
 		(i32.or (i32.eq (local.get $asn) (i32.const 9335))) ;; CAT Telecom Public Company Limited
 		(i32.or (i32.eq (local.get $asn) (i32.const 11831))) ;; eSecureData
 		(i32.or (i32.eq (local.get $asn) (i32.const 11878))) ;; tzulo, inc.
 		(i32.or (i32.eq (local.get $asn) (i32.const 13046))) ;; ISKON INTERNET d.d. za informatiku i telekomunikacije
 		(i32.or (i32.eq (local.get $asn) (i32.const 13213))) ;; UK-2 Limited
-		(i32.or (i32.eq (local.get $asn) (i32.const 20278))) ;; Nexeon Technologies, Inc.
 		(i32.or (i32.eq (local.get $asn) (i32.const 20473))) ;; The Constant Company, LLC
 		(i32.or (i32.eq (local.get $asn) (i32.const 25369))) ;; Hydra Communications Ltd
 		(i32.or (i32.eq (local.get $asn) (i32.const 29485))) ;; A1 Hrvatska d.o.o.
-		(i32.or (i32.eq (local.get $asn) (i32.const 30083))) ;; GoDaddy.com, LLC
-		(i32.or (i32.eq (local.get $asn) (i32.const 26496))) ;; GoDaddy.com, LLC
 		(i32.or (i32.eq (local.get $asn) (i32.const 30736))) ;; ASERGO Scandinavia ApS
 		(i32.or (i32.eq (local.get $asn) (i32.const 35758))) ;; Rachamim Aviel Twito trading as A.B INTERNET SOLUTIONS
 		(i32.or (i32.eq (local.get $asn) (i32.const 37518))) ;; Fiber Grid INC
@@ -36,34 +29,24 @@
 		(i32.or (i32.eq (local.get $asn) (i32.const 50304))) ;; Blix Solutions AS
 		(i32.or (i32.eq (local.get $asn) (i32.const 51747))) ;; Internet Vikings International AB
 		(i32.or (i32.eq (local.get $asn) (i32.const 52423))) ;; Data Miners S.A. ( Racknation.cr )
-		(i32.or (i32.eq (local.get $asn) (i32.const 53013))) ;; W I X NET DO BRASIL LTDA - ME
-		(i32.or (i32.eq (local.get $asn) (i32.const 58182))) ;; Wix.com Ltd.
 		(i32.or (i32.eq (local.get $asn) (i32.const 53667))) ;; FranTech Solutions
 		(i32.or (i32.eq (local.get $asn) (i32.const 55664))) ;; PT Inovasi Global Mumpuni
 		(i32.or (i32.eq (local.get $asn) (i32.const 58065))) ;; Packet Exchange Limited
 		(i32.or (i32.eq (local.get $asn) (i32.const 58073))) ;; YISP B.V.
-		(i32.or (i32.eq (local.get $asn) (i32.const 60068))) ;; Datacamp Limited
 		(i32.or (i32.eq (local.get $asn) (i32.const 62240))) ;; Clouvider Limited
-		(i32.or (i32.eq (local.get $asn) (i32.const 131199))) ;; Nexeon Technologies, Inc.
 		(i32.or (i32.eq (local.get $asn) (i32.const 132203))) ;; Tencent Building Kejizhongyi Avenue
 		(i32.or (i32.eq (local.get $asn) (i32.const 133480))) ;; Intergrid Group Pty Ltd
-		(i32.or (i32.eq (local.get $asn) (i32.const 136787))) ;; TEFINCOM S.A.
 		(i32.or (i32.eq (local.get $asn) (i32.const 136897))) ;; EnjoyVC Cloud Group Limited
 		(i32.or (i32.eq (local.get $asn) (i32.const 137263))) ;; NETEASE (HONG KONG) LIMITED
 		(i32.or (i32.eq (local.get $asn) (i32.const 137409))) ;; GSL Networks Pty LTD
-		(i32.or (i32.eq (local.get $asn) (i32.const 141039))) ;; TEFINCOM S.A.
 		(i32.or (i32.eq (local.get $asn) (i32.const 141167))) ;; AgotoZ HK Limited
 		(i32.or (i32.eq (local.get $asn) (i32.const 146834))) ;; XUNYOU SiChuan XunYou Network Technologe Limit Co
-		(i32.or (i32.eq (local.get $asn) (i32.const 147049))) ;; PacketHub S.A.
 		(i32.or (i32.eq (local.get $asn) (i32.const 197706))) ;; Keminet SHPK
 		(i32.or (i32.eq (local.get $asn) (i32.const 198371))) ;; NINET Company Nis d.o.o.
-		(i32.or (i32.eq (local.get $asn) (i32.const 198605))) ;; AVAST Software s.r.o.
-		(i32.or (i32.eq (local.get $asn) (i32.const 198621))) ;; AVAST Software s.r.o.
 		(i32.or (i32.eq (local.get $asn) (i32.const 199524))) ;; G-Core Labs S.A.
 		(i32.or (i32.eq (local.get $asn) (i32.const 205053))) ;; Asimia Damaskou
 		(i32.or (i32.eq (local.get $asn) (i32.const 205119))) ;; TELEKS DOOEL Skopje
 		(i32.or (i32.eq (local.get $asn) (i32.const 206804))) ;; EstNOC OY
-		(i32.or (i32.eq (local.get $asn) (i32.const 212238))) ;; Datacamp Limited
 		(i32.or (i32.eq (local.get $asn) (i32.const 213277))) ;; ALMOUROLTEC SERVICOS DE INFORMATICA E INTERNET LDA
 		(i32.or (i32.eq (local.get $asn) (i32.const 263702))) ;; GRUPO ZGH SPA
 		(i32.or (i32.eq (local.get $asn) (i32.const 268581))) ;; QNAX LTDA
@@ -81,17 +64,11 @@
 		(i32.or (i32.eq (local.get $asn) (i32.const 8075))) ;; Microsoft / Azure
 		(i32.or (i32.eq (local.get $asn) (i32.const 47674))) ;; related to BLAZINGFAST
 		(i32.or (i32.eq (local.get $asn) (i32.const 206444))) ;; KUBBUR
-		(i32.or (i32.eq (local.get $asn) (i32.const 140952))) ;; Strong Technology, LLC
 		(i32.or (i32.eq (local.get $asn) (i32.const 42473))) ;; ANEXIA Internetdienstleistungs GmbH
 		(i32.or (i32.eq (local.get $asn) (i32.const 59432))) ;; GINERNET
 		(i32.or (i32.eq (local.get $asn) (i32.const 209854))) ;; Surfshark Ltd.
-		(i32.or (i32.eq (local.get $asn) (i32.const 43357))) ;; Owl Limited
-		(i32.or (i32.eq (local.get $asn) (i32.const 29802))) ;; HIVELOCITY, Inc.
 		(i32.or (i32.eq (local.get $asn) (i32.const 54994))) ;; QUANTIL NETWORKS INC
 		(i32.or (i32.eq (local.get $asn) (i32.const 64476))) ;; Shadow SAS (shadow.tech)
-		(i32.or (i32.eq (local.get $asn) (i32.const 3223))) ;; Voxility LLP
-		(i32.or (i32.eq (local.get $asn) (i32.const 39743))) ;; Voxility S.R.L. 
-		(i32.or (i32.eq (local.get $asn) (i32.const 207137))) ;; PacketHub S.A.
 		(i32.or (i32.eq (local.get $asn) (i32.const 213250))) ;; Dominic Scholz trading as ITP-Solutions GmbH & Co. KG   
 		(i32.or (i32.eq (local.get $asn) (i32.const 400175))) ;; Microtronix ESolutions, LLC
 		(i32.or (i32.eq (local.get $asn) (i32.const 60602))) ;; Inovare-Prim SRL
@@ -102,6 +79,62 @@
 		(i32.or (i32.eq (local.get $asn) (i32.const 206092))) ;; Internet Utilities Europe and Asia Limited
 		(i32.or (i32.eq (local.get $asn) (i32.const 136258))) ;; BrainStorm Network, Inc
 		(i32.or (i32.eq (local.get $asn) (i32.const 56485))) ;; Oleksandr Siedinkin
+		;; Scaleway (Note that their ASN 29447 is reused for residential internet by its holding company)
+		(i32.or (i32.eq (local.get $asn) (i32.const 12876)))
+		;; OC NETWORKS LIMITED
+		(i32.or (i32.eq (local.get $asn) (i32.const 209693)))
+		;; Etherware Solutions LLC
+		(i32.or (i32.eq (local.get $asn) (i32.const 399737)))
+		;; Infocrest Systems LLC
+		(i32.or (i32.eq (local.get $asn) (i32.const 397668)))
+		;; VeloxServ Communications Ltd
+		(i32.or (i32.eq (local.get $asn) (i32.const 3170)))
+		;; Byte Node LLC
+		(i32.or (i32.eq (local.get $asn) (i32.const 17243)))
+		;; Jone Broadband LLC
+		(i32.or (i32.eq (local.get $asn) (i32.const 25737)))
+		;; Data Bridge Limited
+		(i32.or (i32.eq (local.get $asn) (i32.const 30671)))
+		;; SB Professional Services
+		(i32.or (i32.eq (local.get $asn) (i32.const 32727)))
+		;; Tech Futures Interactive Inc. (Cloud Singularity)
+		(i32.or (i32.eq (local.get $asn) (i32.const 394256)))
+		;; Hayashimo LLC
+		(i32.or (i32.eq (local.get $asn) (i32.const 399935)))
+		;; Cyber Data LLC
+		(i32.or (i32.eq (local.get $asn) (i32.const 400882)))
+		;; xTom
+		(i32.or (i32.eq (local.get $asn) (i32.const 3214)))
+		(i32.or (i32.eq (local.get $asn) (i32.const 4785)))
+		(i32.or (i32.eq (local.get $asn) (i32.const 6233)))
+		(i32.or (i32.eq (local.get $asn) (i32.const 9312)))
+		;; Nexeon Technologies, Inc.
+		(i32.or (i32.eq (local.get $asn) (i32.const 20278)))
+		(i32.or (i32.eq (local.get $asn) (i32.const 131199)))
+		;; GoDaddy.com, LLC
+		(i32.or (i32.eq (local.get $asn) (i32.const 30083)))
+		(i32.or (i32.eq (local.get $asn) (i32.const 26496)))
+		;; Wix.com Ltd.
+		(i32.or (i32.eq (local.get $asn) (i32.const 53013)))
+		(i32.or (i32.eq (local.get $asn) (i32.const 58182)))
+		;; Datacamp Limited
+		(i32.or (i32.eq (local.get $asn) (i32.const 60068)))
+		(i32.or (i32.eq (local.get $asn) (i32.const 212238)))
+		;; TEFINCOM S.A.
+		(i32.or (i32.eq (local.get $asn) (i32.const 136787)))
+		(i32.or (i32.eq (local.get $asn) (i32.const 141039)))
+		;; PacketHub S.A.
+		(i32.or (i32.eq (local.get $asn) (i32.const 147049)))
+		(i32.or (i32.eq (local.get $asn) (i32.const 207137)))
+		;; AVAST Software s.r.o.
+		(i32.or (i32.eq (local.get $asn) (i32.const 198605)))
+		(i32.or (i32.eq (local.get $asn) (i32.const 198621)))
+		;; Voxility
+		(i32.or (i32.eq (local.get $asn) (i32.const 3223)))
+		(i32.or (i32.eq (local.get $asn) (i32.const 39743)))
+		;; Owl Limited
+		(i32.or (i32.eq (local.get $asn) (i32.const 43357)))
+		(i32.or (i32.eq (local.get $asn) (i32.const 23959)))
 		;; NForce Entertainment B.V.
 		(i32.or (i32.eq (local.get $asn) (i32.const 43350)))
 		(i32.or (i32.eq (local.get $asn) (i32.const 64437))) 
@@ -135,8 +168,6 @@
 		(i32.or (i32.eq (local.get $asn) (i32.const 16631)))
 		(i32.or (i32.eq (local.get $asn) (i32.const 19164)))
 		(i32.or (i32.eq (local.get $asn) (i32.const 22099)))
-		;; Scaleway (Note that their ASN 29447 is reused for residential internet by its holding company)
-		(i32.or (i32.eq (local.get $asn) (i32.const 12876)))
 		;; Bytedance
 		(i32.or (i32.eq (local.get $asn) (i32.const 138699)))
 		(i32.or (i32.eq (local.get $asn) (i32.const 396986)))
@@ -147,6 +178,7 @@
 		(i32.or (i32.eq (local.get $asn) (i32.const 396998)))
 		(i32.or (i32.eq (local.get $asn) (i32.const 30644)))
 		;; Strong Technology
+		(i32.or (i32.eq (local.get $asn) (i32.const 140952)))
 		(i32.or (i32.eq (local.get $asn) (i32.const 13926)))
 		(i32.or (i32.eq (local.get $asn) (i32.const 54203)))
 		(i32.or (i32.eq (local.get $asn) (i32.const 22781)))
@@ -154,12 +186,6 @@
 		;; Hivelocity
 		(i32.or (i32.eq (local.get $asn) (i32.const 61317)))
 		(i32.or (i32.eq (local.get $asn) (i32.const 29802)))
-		;; OC NETWORKS LIMITED
-		(i32.or (i32.eq (local.get $asn) (i32.const 209693)))
-		;; Etherware Solutions LLC
-		(i32.or (i32.eq (local.get $asn) (i32.const 399737)))
-		;; Infocrest Systems LLC
-		(i32.or (i32.eq (local.get $asn) (i32.const 397668)))
 		)
 	(func (export "is_hosting_slug") (param $slug i32) (result i32)
 		(i32.ne (i32.const 0) (call $blume.strstr (local.get $slug) (str.ptr "cdn")))
