@@ -250,6 +250,10 @@
 		(i32.or (i32.eq (local.get $asn) (i32.const 29802)))
 		;; OC NETWORKS LIMITED
 		(i32.or (i32.eq (local.get $asn) (i32.const 209693)))
+		;; Etherware Solutions LLC
+		(i32.or (i32.eq (local.get $asn) (i32.const 399737)))
+		;; Infocrest Systems LLC
+		(i32.or (i32.eq (local.get $asn) (i32.const 397668)))
 		)
 	(func (export "is_hosting_slug") (param $slug i32) (result i32)
 		(i32.ne (i32.const 0) (call $blume.strstr (local.get $slug) (i32.const 12)))
